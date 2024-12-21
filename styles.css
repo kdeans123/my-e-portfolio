@@ -135,6 +135,10 @@ nav {
     font-weight: bold;
 }
 
+.nav__logo {
+    filter: grayscale(1) invert(1);   
+}
+
 /* ABOUT ME */ 
 
 #about-me {
@@ -396,7 +400,7 @@ padding-bottom: 1px;
 /* FOOTER */
 
 footer {
-    background-color: #242424;
+    background-color: #000000;
 }
 
 
@@ -417,7 +421,7 @@ footer {
 }
 
 .footer__logo--image {
-    width: 70px;
+    width: 100px;
     height: 70px;
 }
 
